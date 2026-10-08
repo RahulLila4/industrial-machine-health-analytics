@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Raw and processed datasets
+data/raw/
+data/processed/
+
+# SQLite database
+sql/*.db
+
+# Tableau temporary files
+*.twb~
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
