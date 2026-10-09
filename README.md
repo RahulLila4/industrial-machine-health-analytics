@@ -42,9 +42,13 @@ Python / Pandas Analysis
 ↓  
 SQL Analysis  
 ↓  
-Tableau Visualization & Dashboard  (![Industrial Machine Health Analytics Dashboard](dashboard/dashboard.png))
+Tableau Visualization & Dashboard  
 ↓  
 Insights & Maintenance Recommendations
+
+**Dashboard**
+
+![Industrial Machine Health Analytics Dashboard](dashboard/dashboard.png)
 
 ---
 
