@@ -1,8 +1,11 @@
 import sqlite3
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 # File paths
-db_path = "E:/Industrial_Machine_Health_Analytics/sql/machine_health.db"
-sql_path = "E:/Industrial_Machine_Health_Analytics/sql/01_basic_analysis.sql"
+db_path = PROJECT_ROOT / "sql" / "machine_health.db"
+sql_path = PROJECT_ROOT / "sql" / "01_basic_analysis.sql"
 
 # Connect to database
 conn = sqlite3.connect(db_path)

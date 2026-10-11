@@ -1,7 +1,9 @@
 import pandas as pd
+from pathlib import Path
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 # # Load the raw dataset
-# df = pd.read_csv("E:/Industrial_Machine_Health_Analytics/data/raw/ai4i2020.csv")
+# df = pd.read_csv(PROJECT_ROOT / "data" / "raw" / "ai4i2020.csv")
 
 # # Display the first 5 rows
 # print(df.head())
@@ -500,7 +502,7 @@ import pandas as pd
 
 # Load the original raw dataset again
 processed_df = pd.read_csv(
-    "E:/Industrial_Machine_Health_Analytics/data/raw/ai4i2020.csv"
+    PROJECT_ROOT / "data" / "raw" / "ai4i2020.csv"
 )
 
 # Rename columns to cleaner names
@@ -535,7 +537,7 @@ print(processed_df.isnull().sum().sum())
 # ==========================================
 
 processed_df.to_csv(
-    "E:/Industrial_Machine_Health_Analytics/data/processed/ai4i2020_processed.csv",
+    PROJECT_ROOT / "data" / "processed" / "ai4i2020_processed.csv",
     index=False
 )
 
