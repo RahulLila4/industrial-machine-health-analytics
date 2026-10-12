@@ -1,18 +1,17 @@
+
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 
 # VS Code
 .vscode/
 
-# Raw and processed datasets
-data/raw/
-data/processed/
+# SQLite temporary files
+sql/*.db-journal
+sql/*.db-wal
+sql/*.db-shm
 
-# SQLite database
-sql/*.db
-
-# Tableau temporary files
+# Tableau temporary and backup files
 *.twb~
 *.tmp
 
