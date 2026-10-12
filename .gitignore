@@ -11,6 +11,9 @@ sql/*.db-journal
 sql/*.db-wal
 sql/*.db-shm
 
+# Generated SQLite database
+sql/machine_health.db
+
 # Tableau temporary and backup files
 *.twb~
 *.tmp
